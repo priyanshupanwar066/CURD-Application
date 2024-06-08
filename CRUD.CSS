@@ -1,0 +1,61 @@
+body{
+    background-image: url(DataAnalytics.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    margin-top: 150px;
+    background: rgba(54, 58, 172, 0.842);
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+    background-color: antiquewhite;
+}
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+button{
+    background: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+button:hover{
+    background: #4b99d8;
+}
